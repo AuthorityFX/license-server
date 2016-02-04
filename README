@@ -1,0 +1,4 @@
+Server.py listens for incoming licensing requests from the licensing-portal TurboGears2
+website. The plain text license request recieved from licensing-portal is sent to 
+license-generator via subprocoess. The encypted hex output of license-generator is sent 
+back to the licensing-portal and stored in the database.
